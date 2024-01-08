@@ -1,5 +1,10 @@
+const sarahRoute = (req, res) => {
+  res.send("Hello Sarah");
+};
+
+
 const emilyRoute = (req, res) => {
-  res.send("Hello Hannah");
+  res.send("Hello Emily");
 };
 
 const hannahRoute = (req, res) => {
@@ -8,6 +13,8 @@ const hannahRoute = (req, res) => {
 
 
   module.exports = {
+    sarahRoute,
     emilyRoute,
     hannahRoute,
+    
   };
