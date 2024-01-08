@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send("Hello John");
 });
 
-app.get('hannah', (req, res) => {
+app.get('/hannah', (req, res) => {
   res.send("Hello Hannah");
 });
 
