@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const lesson1Controller =  require ('./controllers/lesson1Controller');
+const lesson1Controller =  require ('./controllers/lesson1');
 
 // Took out annoynmous function
 app.get('/', lesson1Controller.hannahRoute);
