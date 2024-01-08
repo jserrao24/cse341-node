@@ -7,7 +7,7 @@ const hannahRoute = (req, res) => {
   };
 
 
-  
   module.exports = {
-    hannahRoute
+    emilyRoute,
+    hannahRoute,
   };
