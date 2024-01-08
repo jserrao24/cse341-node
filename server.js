@@ -13,5 +13,5 @@ app.get('/', lesson1Controller.hannahRoute);
 
 const port = 3000
  
-app.listen(process.env.port || port);
+app.listen(process.env.PORT || port);
   console.log('Web Server is listening at port ' + (process.env.PORT || 3000));
