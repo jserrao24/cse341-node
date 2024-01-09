@@ -4,7 +4,7 @@ const sarahRoute = (req, res) => {
 
 
 const emilyRoute = (req, res) => {
-  res.send("Hello Emily");
+  res.send("Hello mily");
 };
 
 const hannahRoute = (req, res) => {
